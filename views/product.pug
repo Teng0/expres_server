@@ -1,0 +1,12 @@
+//- <div class="product" test=123></div>
+head
+    link(rel="stylesheet", href="./public/stykesgeets/styles.css")
+body
+    .product(test="123")
+        .image
+            img(src="http://example.com", alt="Test")
+        .main
+            h1 #{name}
+            .description lorem ipsum
+            .price #{price}
+        #comments(data-name="foo")
